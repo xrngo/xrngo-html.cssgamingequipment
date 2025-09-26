@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #D4DFFF;
+    width: auto;
+    align-items: center;
+   height: 100px;
+}
+
+
+
+
+
+
+.sect-one{
+    display: flex;
+    margin-top: 100px;
+    padding: 0px 400px;
+  
+}
+
+
+
+.maininfo p{
+    font-size: 40px;
+    font-style: oblique ;
+    text-transform:uppercase ;
+    padding-bottom: 76px;
+}
+
+.maininfo{
+    width: 500px;
+}
+
+
+
+
+
+
+nav.imginfo img{
+    border: 1px solid black;
+    width: 80%;
+    
+}
+
+.sect-two{
+    display: flex;
+    margin-top: 100px;
+   padding: 20px 230px ;
+   width:auto;
+    height:300px ;
+}
+
+
+.buttom {
+    display: flex;
+    justify-content: center;
+  align-items: center;
+   background-color: #D4DFFF;
+   width:300px ;
+   height:50px ;
+   border-radius: 10px;
+   margin-left: 50px;
+}
+
+.buttom a{
+    text-decoration: none; 
+    color: black;
+}
+
+  
