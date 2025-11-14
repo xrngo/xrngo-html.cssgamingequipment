@@ -1,176 +1,124 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-header{
-    display: flex;
-    justify-content: center;
-    background-color: #D4DFFF;
-    width: auto;
-    align-items: center;
-   height: 100px;
-}
-
-
-
-
-
-
-.sect-one{
-    display: flex;
-    margin-top: 100px;
-    padding: 0px 400px;
-  
-}
-
-
-
-.maininfo p{
-    font-size: 40px;
-    font-style: oblique ;
-    text-transform:uppercase ;
-    padding-bottom: 76px;
-}
-
-.maininfo{
-    width: 500px;
-}
-
-
-
-
-
-
-nav.imginfo img{
-    border: 1px solid black;
-    width: 80%;
-    
-}
-
-.sect-two{
-   
-    margin-top: 100px;
-  padding-bottom: 400px;
-   width:auto;
-    height:300px ;
-}
-
-
-.buttom {
-    display: flex;
-    justify-content: center;
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #D4DFFF;
+  width: auto;
   align-items: center;
-   background-color: #D4DFFF;
-   width:300px ;
-   height:50px ;
-   border-radius: 10px;
-   margin-left: 50px;
-   margin-top: 20px;
+  height: 100px;
 }
 
-.buttom a{
-    text-decoration: none; 
-    color: black;
-    text-transform:uppercase ;
+nav.sect-one {
+  display: flex;
+  margin-top: 100px;
+  padding: 0 400px;
 }
-
-
-.on {
-display: flex;
-justify-content: center;
+nav.sect-one .imginfo img {
+  border: 1px solid black;
+  width: 80%;
 }
-
-.to{
-    display: flex;
-justify-content: center;
+nav.sect-one .maininfo {
+  width: 500px;
 }
-
-.sect-three{
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-    height: 400px;
+nav.sect-one .maininfo p {
+  font-size: 40px;
+  font-style: oblique;
+  text-transform: uppercase;
+  padding-bottom: 76px;
 }
-
-
-span{
-    display: flex;
-    justify-content: center;
-    margin-top: 200px;
-}
-
-span h1{
-font-size: 50px;
- text-transform:uppercase ;
-}
-
-.sect-specificationstwo{
-    margin-left: 55px;
-}
-
-.sect-three section{
-    font-size: 20px;
-}
-
-
-.sect-four{
-    display: flex;
-    justify-content: center;
-}
-
-.sect-four img{
-    width:200px ;
-    height: 200px;
-}
-
-
-.sect-table .button-on{
+nav.sect-one .buttom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #D4DFFF;
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
   margin-left: 50px;
+  margin-top: 20px;
+}
+nav.sect-one .buttom a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+nav.sect-two {
+  margin-top: 100px;
+  padding-bottom: 400px;
+  width: auto;
+  height: 300px;
+}
+nav.sect-three {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  height: 400px;
+}
+nav.sect-three section {
+  font-size: 20px;
+}
+nav.sect-three section.sect-specificationstwo {
+  margin-left: 55px;
+}
+nav.sect-four {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  padding: 100px 500px 0 500px;
+}
+nav.sect-four .sect-table {
+  width: 300px;
+  height: 370px;
+  border: 1px solid black;
+  margin-right: 20px;
+}
+nav.sect-four .sect-table img {
+  width: 300px;
+  height: 300px;
+}
+nav.sect-four .sect-table p {
+  display: flex;
+  justify-content: center;
+}
+nav.sect-four .sect-table .button-on {
+  margin-left: 100px;
   margin-top: 10px;
-width: 100px;
-height:30px ;
+  width: 100px;
+  height: 30px;
 }
 
-
-.sect-table{
-    width: 200px;
-    height: 270px;
-     border: 1px solid black;
-    margin-right: 20PX;
+.on,
+.to {
+  display: flex;
+  justify-content: center;
 }
 
-.sect-table p {
-display: flex;
-    justify-content: center;
+span {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+span h1 {
+  font-size: 50px;
+  text-transform: uppercase;
 }
 
-.sect-four{
-    margin-top: 100px;
-    height: 400px;
-}
-
-.backbutt img{
-    width:50px ;
-    height: 50px;
-}
-
-.backbutt a{
-    margin-left:97%;
-    
-}
 .backbutt {
-    margin: 0px;
-    padding: 0px;
+  margin: 0;
+  padding: 0;
+}
+.backbutt img {
+  width: 50px;
+  height: 50px;
+}
+.backbutt a {
+  margin-left: 97%;
 }
 
-
-
-
-
-
-
-
-
-
-  
+/*# sourceMappingURL=style.css.map */

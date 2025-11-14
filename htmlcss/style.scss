@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #D4DFFF;
+  width: auto;
+  align-items: center;
+  height: 100px;
+}
+
+nav {
+  &.sect-one {
+    display: flex;
+    margin-top: 100px;
+    padding: 0 400px;
+
+    .imginfo {
+      img {
+        border: 1px solid black;
+        width: 80%;
+      }
+    }
+
+    .maininfo {
+      width: 500px;
+
+      p {
+        font-size: 40px;
+        font-style: oblique;
+        text-transform: uppercase;
+        padding-bottom: 76px;
+      }
+    }
+
+    .buttom {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #D4DFFF;
+      width: 300px;
+      height: 50px;
+      border-radius: 10px;
+      margin-left: 50px;
+      margin-top: 20px;
+
+      a {
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  &.sect-two {
+    margin-top: 100px;
+    padding-bottom: 400px;
+    width: auto;
+    height: 300px;
+  }
+
+  &.sect-three {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    height: 400px;
+
+    section {
+      font-size: 20px;
+
+      &.sect-specificationstwo {
+        margin-left: 55px;
+      }
+    }
+  }
+
+  &.sect-four {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    padding: 100px 500px 0 500px;
+
+    .sect-table {
+      width: 300px;
+      height: 370px;
+      border: 1px solid black;
+      margin-right: 20px;
+
+      img {
+        width: 300px;
+        height: 300px;
+      }
+
+      p {
+        display: flex;
+        justify-content: center;
+      }
+
+      .button-on {
+        margin-left: 100px;
+        margin-top: 10px;
+        width: 100px;
+        height: 30px;
+      }
+    }
+  }
+}
+
+.on,
+.to {
+  display: flex;
+  justify-content: center;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+
+  h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+  }
+}
+
+.backbutt {
+  margin: 0;
+  padding: 0;
+
+  img {
+    width: 50px;
+    height: 50px;
+  }
+
+  a {
+    margin-left: 97%;
+  }
+}
